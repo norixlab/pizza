@@ -3,7 +3,7 @@ import React from 'react';
 export const Sort = ({ value, onChangeSort }) => {
     const [isVisiblePopup, setIsVisiblePopup] = React.useState(false);
 
-    const list = {}['популярности', 'цене', 'алфавиту'];
+    const list = ['популярности', 'цене', 'алфавиту'];
 
     const onClickSortName = (i) => {
         onChangeSort(i);
